@@ -1,5 +1,7 @@
 # blood_experiment_platformer
 
+![screen1](blood_experiment_platformer.png)
+
 EN
 
 This is just a piece of my 2D game that I am developing (alone) in Godot. Of course there are a lot of things missing. I have only polish version of this game by now. Adjustable options, other languages, player's inventory, NPC's, enemies, collectables, music and sound effects and many other things will be developed soon. I think that scenes and scripts will be rearranged soon too. 
