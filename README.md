@@ -8,7 +8,7 @@ This is just a part of my 2D game that I'm developing solo in **Godot**. Many fe
 
 ### 🧬 Upcoming Plot
 
-As the main character, you'll search for a trustworthy doctor or resources. You find yourself in a forest after a mysterious break from life. Strange marks on your skin suggest possible injections — you fear you’ve been infected and that viruses are killing you from within. Your character becomes weaker with each level. Our character must rest, eat and in some cases our hero may become addicted to some substances.
+As the main character, you'll search for a trustworthy doctor or resources. You find yourself in a forest after a mysterious break from life. Strange marks on your skin suggest possible injections — you fear you’ve been infected and that viruses are killing you from within. Your character becomes weaker with each level. Our character must rest, eat, drink and in some cases our hero may become addicted to some substances.
 
 You must find a way to examine your blood. Can the doctor be trusted? You begin your journey equipped with medieval armor, a sword, and a shield — found in the forest after a party...
 
@@ -39,7 +39,7 @@ To tylko fragment mojej gry 2D, którą tworzę samodzielnie w **Godot**. Wiele 
 
 ### 🧬 Nadchodząca Fabuła
 
-Jako główny bohater będziemy szukać lekarza lub zasobów, którym można zaufać. Budzimy się w lesie po przerwie od życia, a na skórze dostrzegamy dziwne ślady — być może po igłach. Zakładamy, że zostaliśmy zarażeni i wirusy zabijają nas od środka. Postać słabnie z każdym poziomem. Nasz bohater musi odpoczywać, jeść i w niektórych przypadkach nasz heros może się uzależnić od niektórych substancji.
+Jako główny bohater będziemy szukać lekarza lub zasobów, którym można zaufać. Budzimy się w lesie po przerwie od życia, a na skórze dostrzegamy dziwne ślady — być może po igłach. Zakładamy, że zostaliśmy zarażeni i wirusy zabijają nas od środka. Postać słabnie z każdym poziomem. Nasz bohater musi odpoczywać, jeść, pić i w niektórych przypadkach nasz heros może się także uzależnić od niektórych substancji.
 
 Poszukujemy sposobu, by zbadać naszą krew. Czy lekarz jest godny zaufania? Zaczynamy w średniowiecznej zbroi, z mieczem i tarczą — znalezionymi w lesie po imprezie...
 
