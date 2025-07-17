@@ -17,6 +17,8 @@ You must find a way to examine your blood. Can the doctor be trusted? You begin 
 - [Pixel Valley Platform Tiles by Kauzz](https://kauzz.itch.io/pixel-valley-plataform-tiles)
 - [Starstring Fields by Trixelized](https://trixelized.itch.io/starstring-fields)
 - [Knight Hero Platform by Pixivan](https://pixivan.itch.io/knight-hero-platfor)
+- [Crow by Shiaxs](https://shiaxs.itch.io/crow)
+- [Dark-owl-sprites by thespriteshop](https://thespriteshop.itch.io/dark-owl-sprites)
 
 ### 🤖 AI Tools Used
 
@@ -39,9 +41,11 @@ Poszukujemy sposobu, by zbadać naszą krew. Czy lekarz jest godny zaufania? Zac
 
 ### 🎨 Autorzy grafiki
 
-- [Pixel Valley Platform Tiles od Kauzz](https://kauzz.itch.io/pixel-valley-plataform-tiles)
-- [Starstring Fields od Trixelized](https://trixelized.itch.io/starstring-fields)
-- [Knight Hero Platform od Pixivan](https://pixivan.itch.io/knight-hero-platfor)
+- [Pixel Valley Platform Tiles by Kauzz](https://kauzz.itch.io/pixel-valley-plataform-tiles)
+- [Starstring Fields by Trixelized](https://trixelized.itch.io/starstring-fields)
+- [Knight Hero Platform by Pixivan](https://pixivan.itch.io/knight-hero-platfor)
+- [Crow by Shiaxs](https://shiaxs.itch.io/crow)
+- [Dark-owl-sprites by thespriteshop](https://thespriteshop.itch.io/dark-owl-sprites)
 
 ### 🤖 Najczęściej używane narzędzia AI
 
