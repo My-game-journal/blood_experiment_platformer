@@ -26,6 +26,8 @@ You must find a way to examine your blood. Can the doctor be trusted? You begin 
 
 then GitHub Copilot, ChatGPT and BIELIK.AI
 
+each of them I used for something else.
+
 ------
 
 A mobile version is coming soon… or maybe **you** can build it too! That would be amazing 😄  
@@ -56,6 +58,8 @@ Poszukujemy sposobu, by zbadać naszą krew. Czy lekarz jest godny zaufania? Zac
 - Microsoft Copilot
 
 później GitHub Copilot, Chat GPT, BIELIK.AI
+
+każde z nich użyłem do czegoś innego.
 
 ------
 
