@@ -1,35 +1,51 @@
-# blood_experiment_platformer
+# Blood Experiment Platformer
 
 ![screen1](blood_experiment_platformer.png)
 
-EN
+## 🇬🇧 English
 
-This is just a piece of my 2D game that I am developing (alone) in Godot. Of course there are a lot of things missing. I have only polish version of this game by now. Adjustable options, other languages, player's inventory, NPC's, enemies, collectables, music and sound effects and many other things will be developed soon. I think that scenes and scripts will be rearranged soon too. 
+This is just a part of my 2D game that I'm developing solo in **Godot**. Many features are still missing — so far the game is only available in **Polish**. Adjustable settings, multi-language support, player's inventory, NPCs, enemies, collectibles, music, sound effects, and many other features are on the way. I also plan to reorganize scenes and scripts soon.
 
-Upcoming plot - As a main character, we will be looking for a doctor or resources that we can trust. We have found ourselves in the forest after a break (from life) and we spotted some strange spots on our skin that may be signs of needles. We are assuming that we were infected and viruses are killing us from the inside. Our character is getting weaker each level. We will be looking to find the way to exemine our blood on our own. Can we trust the doctor? We are starting with medieval armor, sword and shield that we have found in the forest after a party...
+### 🧬 Upcoming Plot
 
-Art:
--[](https://kauzz.itch.io/pixel-valley-plataform-tiles)
--[](https://trixelized.itch.io/starstring-fields)
--[](https://pixivan.itch.io/knight-hero-platfor)
+As the main character, you'll search for a trustworthy doctor or resources. You find yourself in a forest after a mysterious break from life. Strange marks on your skin suggest possible injections — you fear you’ve been infected and that viruses are killing you from within. Your character becomes weaker with each level.
 
-AI tools used most for the developement:
+You must find a way to examine your blood. Can the doctor be trusted? You begin your journey equipped with medieval armor, a sword, and a shield — found in the forest after a party...
+
+### 🎨 Art Credits
+
+- [Pixel Valley Platform Tiles by Kauzz](https://kauzz.itch.io/pixel-valley-plataform-tiles)
+- [Starstring Fields by Trixelized](https://trixelized.itch.io/starstring-fields)
+- [Knight Hero Platform by Pixivan](https://pixivan.itch.io/knight-hero-platfor)
+
+### 🤖 AI Tools Used
+
 - Microsoft Copilot
 
-I will be developing mobile version soon or you can if you want :) It will be great :) But do not forget to show me :) Correct some logic. I almost didn't think while developing this :D (You know what I mean) ]:>
+A mobile version is coming soon… or maybe **you** can build it too! That would be amazing 😄  
+Just don’t forget to share it with me! Feel free to fix the logic — I barely thought while developing this 😅 (You know what I mean) ]:>
 
-PL
+---
 
-To tylko fragment mojej gry 2D, którą rozwijam (samodzielnie) w Godot. Oczywiście brakuje wielu rzeczy. Na razie mam tylko polską wersję tej gry. Opcje konfigurowalne, inne języki, ekwipunek gracza, postacie niezależne (NPC), przeciwnicy, przedmioty kolekcjonerskie, muzyka i efekty dźwiękowe oraz wiele innych rzeczy zostaną wkrótce dodane. Myślę, że sceny i skrypty również zostaną wkrótce przearanżowane.
+## 🇵🇱 Polski
 
-Nadchodząca fabuła – Jako główny bohater będziemy szukać lekarza lub zasobów, którym możemy zaufać. Znaleźliśmy się w lesie po przerwie (od życia) i zauważyliśmy dziwne plamy na skórze, które mogą być oznakami ukłucia igłami. Zakładamy, że zostaliśmy zarażeni, a wirusy zabijają nas od środka. Nasza postać słabnie z każdym poziomem. Będziemy szukać sposobu na samodzielne zbadanie naszej krwi. Czy możemy zaufać lekarzowi? Zaczynamy ze średniowieczną zbroją, mieczem i tarczą, którą znaleźliśmy w lesie po imprezie...
+To tylko fragment mojej gry 2D, którą tworzę samodzielnie w **Godot**. Wiele funkcji jeszcze brakuje — obecnie gra jest dostępna tylko w **języku polskim**. Konfigurowalne opcje, inne języki, ekwipunek gracza, postacie niezależne (NPC), przeciwnicy, kolekcje, muzyka i efekty dźwiękowe — wszystko to dopiero powstaje. Planuję też przearanżować sceny i skrypty.
 
-Będę rozwijał mobilną wersję lub Ty możesz jeśli chcesz :) Będzie świetnie :) Tylko nie zapomnij mi pokazać :) Popraw logikę. Prawie nie myślałem rozwijając to :D (wiesz co mam na myśli) ]:>
+### 🧬 Nadchodząca Fabuła
 
-Sztuka:
--[](https://kauzz.itch.io/pixel-valley-plataform-tiles)
--[](https://trixelized.itch.io/starstring-fields)
--[](https://pixivan.itch.io/knight-hero-platfor)
+Jako główny bohater będziemy szukać lekarza lub zasobów, którym można zaufać. Budzimy się w lesie po przerwie od życia, a na skórze dostrzegamy dziwne ślady — być może po igłach. Zakładamy, że zostaliśmy zarażeni i wirusy zabijają nas od środka. Postać słabnie z każdym poziomem.
 
-Narzędzia AI użyte najwięcej do rozwouju produkcji:
+Poszukujemy sposobu, by zbadać naszą krew. Czy lekarz jest godny zaufania? Zaczynamy w średniowiecznej zbroi, z mieczem i tarczą — znalezionymi w lesie po imprezie...
+
+### 🎨 Autorzy grafiki
+
+- [Pixel Valley Platform Tiles od Kauzz](https://kauzz.itch.io/pixel-valley-plataform-tiles)
+- [Starstring Fields od Trixelized](https://trixelized.itch.io/starstring-fields)
+- [Knight Hero Platform od Pixivan](https://pixivan.itch.io/knight-hero-platfor)
+
+### 🤖 Najczęściej używane narzędzia AI
+
 - Microsoft Copilot
+
+Wersja mobilna już w drodze — albo Ty możesz ją stworzyć! Będzie super 😄  
+Tylko nie zapomnij mi pokazać! Popraw logikę — prawie nie myślałem rozwijając to 😅 (Wiesz co mam na myśli) ]:>
