@@ -24,7 +24,7 @@ You must find a way to examine your blood. Can the doctor be trusted? You begin 
 
 - Microsoft Copilot
 
-then Github Copilot, ChatGPT and BIELIK.AI
+then GitHub Copilot, ChatGPT and BIELIK.AI
 
 ------
 
@@ -55,7 +55,7 @@ Poszukujemy sposobu, by zbadać naszą krew. Czy lekarz jest godny zaufania? Zac
 
 - Microsoft Copilot
 
-później Github Copilot, Chat GPT, BIELIK.AI
+później GitHub Copilot, Chat GPT, BIELIK.AI
 
 ------
 
