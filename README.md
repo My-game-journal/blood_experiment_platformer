@@ -1,18 +1,30 @@
-# Blood Experiment Platformer
+# 🩸 Blood Experiment Platformer
 
 ![screen1](blood_experiment_platformer.png)
 
 ## 🇬🇧 English
 
-This is just a part of my 2D game that I'm developing solo in **Godot**. Many features are still missing — so far the game is only available in **Polish**. Adjustable settings, multi-language support, player's inventory, NPCs, enemies, collectibles, music, sound effects, and many other features are on the way. I also plan to reorganize scenes and scripts soon.
+**Blood Experiment Platformer** is a solo-developed 2D game built in **Godot**. This is just a fragment of the full experience — many features are still in development. Currently, the game is available only in **Polish**, but multi-language support is on the way.
 
-### 🧬 Upcoming Plot
+### 🧪 Plot Overview
 
-As the main character, you'll search for a trustworthy doctor or resources. You find yourself in a forest after a mysterious break from life. Strange marks on your skin suggest possible injections — you fear you’ve been infected and that viruses are killing you from within. Your character becomes weaker with each level. Our character must rest, eat, drink and in some cases our hero may become addicted to some substances.
+You awaken in a forest after a mysterious break from life. Strange marks on your skin suggest injections — you fear infection, and that something is killing you from within. With each level, your character grows weaker. You must rest, eat, drink, and sometimes rely on substances — which may lead to addiction.
 
-You must find a way to examine your blood. Can the doctor be trusted? You begin your journey equipped with medieval armor, a sword, and a shield — found in the forest after a party...
+Your goal: **examine your blood** and find a trustworthy doctor. But can anyone be trusted?
 
-As you progress, the story will unfold through environmental clues, cryptic notes, and interactions with NPCs. The game will explore themes of trust, survival, and the psychological toll of isolation and uncertainty.
+You begin your journey wearing medieval armor, wielding a sword and shield — found after a party in the woods. The story unfolds through environmental clues, cryptic notes, and NPC interactions. Themes include **trust**, **survival**, and the **psychological toll of isolation and uncertainty**.
+
+### 🎮 Features in Progress
+
+- Adjustable settings  
+- Multi-language support  
+- Player inventory  
+- NPCs and enemies  
+- Collectibles  
+- Music and sound effects  
+- Scene and script reorganization
+- Emotions control
+- Health bar *(added 18.07.2025 — still in progress)*
 
 ### 🎨 Art Credits
 
@@ -29,32 +41,44 @@ As you progress, the story will unfold through environmental clues, cryptic note
 - ChatGPT  
 - BIELIK.AI  
 
-Each tool was used for different aspects of development — from logic and scripting to writing and design.
-
-### ✨ *Features Added:*
-
-- 18.07.2025 - Health bar - still in progress.
+Each tool supported different aspects of development — from logic and scripting to writing and design.
 
 ---
 
-A mobile version is coming soon… or maybe **you** can build it too! That would be amazing 😄  
-Just don’t forget to share it with me! Feel free to fix the logic — I barely thought while developing this 😅 (You know what I mean) ]:>
+### 📱 Mobile Version Coming Soon…
+
+Or maybe **you** can build it too! That would be amazing 😄  
+Just don’t forget to share it with me!
+
+Also — if you spot messy logic or overly complex code, feel free to simplify it. I know it can be written better, but I’m racing to finish this project 😅 You know what I mean ]:>
 
 ---
 
 ## 🇵🇱 Polski
 
-To tylko fragment mojej gry 2D, którą tworzę samodzielnie w **Godot**. Wiele funkcji jeszcze brakuje — obecnie gra jest dostępna tylko w **języku polskim**. Konfigurowalne opcje, inne języki, ekwipunek gracza, postacie niezależne (NPC), przeciwnicy, kolekcje, muzyka i efekty dźwiękowe — wszystko to dopiero powstaje. Planuję też przearanżować sceny i skrypty.
+**Blood Experiment Platformer** to gra 2D tworzona przeze mnie samodzielnie w **Godot**. To tylko fragment pełnej wersji — wiele funkcji jest jeszcze w trakcie tworzenia. Obecnie gra dostępna jest tylko w **języku polskim**, ale planuję dodać obsługę wielu języków.
 
-### 🧬 Nadchodząca Fabuła
+### 🧪 Zarys Fabuły
 
-Jako główny bohater będziemy szukać lekarza lub zasobów, którym można zaufać. Budzimy się w lesie po przerwie od życia, a na skórze dostrzegamy dziwne ślady — być może po igłach. Zakładamy, że zostaliśmy zarażeni i wirusy zabijają nas od środka. Postać słabnie z każdym poziomem. Nasz bohater musi odpoczywać, jeść, pić i w niektórych przypadkach nasz heros może się także uzależnić od niektórych substancji.
+Budząc się w lesie po tajemniczej przerwie od życia, odkrywamy dziwne ślady na skórze — być może po zastrzykach. Obawiamy się infekcji, a nasza postać słabnie z każdym poziomem. Musimy odpoczywać, jeść, pić, a czasem sięgać po substancje — co może prowadzić do uzależnienia.
 
-Poszukujemy sposobu, by zbadać naszą krew. Czy lekarz jest godny zaufania? Zaczynamy w średniowiecznej zbroi, z mieczem i tarczą — znalezionymi w lesie po imprezie...
+Naszym celem jest **zbadanie krwi** i odnalezienie godnego zaufania lekarza. Ale czy można komukolwiek zaufać?
 
-W miarę postępów fabuła będzie rozwijana poprzez wskazówki środowiskowe, tajemnicze notatki i interakcje z NPC. Gra poruszy tematy zaufania, przetrwania oraz psychologicznego wpływu izolacji i niepewności.
+Rozpoczynamy w średniowiecznej zbroi, z mieczem i tarczą — znalezionymi po imprezie w lesie. Fabuła rozwija się poprzez wskazówki środowiskowe, tajemnicze notatki i interakcje z NPC. Gra porusza tematy **zaufania**, **przetrwania** oraz **psychologicznego wpływu izolacji i niepewności**.
 
-### 🎨 Autorzy grafiki
+### 🎮 Funkcje w trakcie tworzenia
+
+- Konfigurowalne opcje  
+- Obsługa wielu języków  
+- Ekwipunek gracza  
+- NPC i przeciwnicy  
+- Kolekcje  
+- Muzyka i efekty dźwiękowe  
+- Przearanżowanie scen i skryptów
+- Kontrola emocji
+- Pasek zdrowia *(dodano 18.07.2025 — wciąż rozwijany)*
+
+### 🎨 Autorzy Grafiki
 
 - [Pixel Valley Platform Tiles by Kauzz](https://kauzz.itch.io/pixel-valley-plataform-tiles)  
 - [Starstring Fields by Trixelized](https://trixelized.itch.io/starstring-fields)  
@@ -62,20 +86,20 @@ W miarę postępów fabuła będzie rozwijana poprzez wskazówki środowiskowe, 
 - [Crow by Shiaxs](https://shiaxs.itch.io/crow)  
 - [Dark-owl-sprites by thespriteshop](https://thespriteshop.itch.io/dark-owl-sprites)
 
-### 🤖 Najczęściej używane narzędzia AI
+### 🤖 Użyte Narzędzia AI
 
 - Microsoft Copilot  
 - GitHub Copilot  
-- Chat GPT  
+- ChatGPT  
 - BIELIK.AI  
 
-Każde z nich użyłem do czegoś innego — od logiki i skryptów po pisanie i projektowanie.
-
-### ✨ *Dodane funkcje:*
-
-- 18.07.2025 - Health bar - wciąż rozwijany.
+Każde z nich pomogło w innym aspekcie — od logiki i skryptów po pisanie i projektowanie.
 
 ---
 
-Wersja mobilna już w drodze — albo Ty możesz ją stworzyć! Będzie super 😄  
-Tylko nie zapomnij mi pokazać! Popraw logikę — prawie nie myślałem rozwijając to 😅 (Wiesz co mam na myśli) ]:>
+### 📱 Wersja mobilna już w drodze…
+
+Albo może **Ty** ją stworzysz? Byłoby super 😄  
+Tylko nie zapomnij mi jej pokazać!
+
+Jeśli znajdziesz błędy w logice lub zbyt skomplikowany kod — śmiało uprość go. Wiem, że można to napisać lepiej, ale staram się skończyć ten projekt jak najszybciej 😅 Wiesz, co mam na myśli ]:>
