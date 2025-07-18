@@ -12,28 +12,35 @@ As the main character, you'll search for a trustworthy doctor or resources. You 
 
 You must find a way to examine your blood. Can the doctor be trusted? You begin your journey equipped with medieval armor, a sword, and a shield — found in the forest after a party...
 
+As you progress, the story will unfold through environmental clues, cryptic notes, and interactions with NPCs. The game will explore themes of trust, survival, and the psychological toll of isolation and uncertainty.
+
 ### 🎨 Art Credits
 
-- [Pixel Valley Platform Tiles by Kauzz](https://kauzz.itch.io/pixel-valley-plataform-tiles)
-- [Starstring Fields by Trixelized](https://trixelized.itch.io/starstring-fields)
-- [Knight Hero Platform by Pixivan](https://pixivan.itch.io/knight-hero-platfor)
-- [Crow by Shiaxs](https://shiaxs.itch.io/crow)
+- [Pixel Valley Platform Tiles by Kauzz](https://kauzz.itch.io/pixel-valley-plataform-tiles)  
+- [Starstring Fields by Trixelized](https://trixelized.itch.io/starstring-fields)  
+- [Knight Hero Platform by Pixivan](https://pixivan.itch.io/knight-hero-platfor)  
+- [Crow by Shiaxs](https://shiaxs.itch.io/crow)  
 - [Dark-owl-sprites by thespriteshop](https://thespriteshop.itch.io/dark-owl-sprites)
 
 ### 🤖 AI Tools Used
 
-- Microsoft Copilot
+- Microsoft Copilot  
+- GitHub Copilot  
+- ChatGPT  
+- BIELIK.AI  
 
-then GitHub Copilot, ChatGPT and BIELIK.AI
+Each tool was used for different aspects of development — from logic and scripting to writing and design.
 
-each of them I used for something else.
+### ✨ *Features Added:*
 
-------
+- 18.07.2025 - Health bar - still in progress.
+
+---
 
 A mobile version is coming soon… or maybe **you** can build it too! That would be amazing 😄  
-Just don’t forget to share it with me! Feel free to fix the logic — I barely thought while developing this 😅 (You know what I mean) ]:> 
+Just don’t forget to share it with me! Feel free to fix the logic — I barely thought while developing this 😅 (You know what I mean) ]:>
 
-------
+---
 
 ## 🇵🇱 Polski
 
@@ -45,23 +52,30 @@ Jako główny bohater będziemy szukać lekarza lub zasobów, którym można zau
 
 Poszukujemy sposobu, by zbadać naszą krew. Czy lekarz jest godny zaufania? Zaczynamy w średniowiecznej zbroi, z mieczem i tarczą — znalezionymi w lesie po imprezie...
 
+W miarę postępów fabuła będzie rozwijana poprzez wskazówki środowiskowe, tajemnicze notatki i interakcje z NPC. Gra poruszy tematy zaufania, przetrwania oraz psychologicznego wpływu izolacji i niepewności.
+
 ### 🎨 Autorzy grafiki
 
-- [Pixel Valley Platform Tiles by Kauzz](https://kauzz.itch.io/pixel-valley-plataform-tiles)
-- [Starstring Fields by Trixelized](https://trixelized.itch.io/starstring-fields)
-- [Knight Hero Platform by Pixivan](https://pixivan.itch.io/knight-hero-platfor)
-- [Crow by Shiaxs](https://shiaxs.itch.io/crow)
+- [Pixel Valley Platform Tiles by Kauzz](https://kauzz.itch.io/pixel-valley-plataform-tiles)  
+- [Starstring Fields by Trixelized](https://trixelized.itch.io/starstring-fields)  
+- [Knight Hero Platform by Pixivan](https://pixivan.itch.io/knight-hero-platfor)  
+- [Crow by Shiaxs](https://shiaxs.itch.io/crow)  
 - [Dark-owl-sprites by thespriteshop](https://thespriteshop.itch.io/dark-owl-sprites)
 
 ### 🤖 Najczęściej używane narzędzia AI
 
-- Microsoft Copilot
+- Microsoft Copilot  
+- GitHub Copilot  
+- Chat GPT  
+- BIELIK.AI  
 
-później GitHub Copilot, Chat GPT, BIELIK.AI
+Każde z nich użyłem do czegoś innego — od logiki i skryptów po pisanie i projektowanie.
 
-każde z nich użyłem do czegoś innego.
+### ✨ *Dodane funkcje:*
 
-------
+- 18.07.2025 - Health bar - wciąż rozwijany.
+
+---
 
 Wersja mobilna już w drodze — albo Ty możesz ją stworzyć! Będzie super 😄  
 Tylko nie zapomnij mi pokazać! Popraw logikę — prawie nie myślałem rozwijając to 😅 (Wiesz co mam na myśli) ]:>
