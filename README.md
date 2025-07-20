@@ -58,6 +58,8 @@ Also — if you spot messy logic or overly complex code, feel free to simplify i
 
 ---
 
+So far I am developing this game for Windows.
+
 ## 🇵🇱 Polski
 
 **Blood experiment platformer** to gra 2D tworzona przeze mnie samodzielnie w **Godot**. To tylko fragment pełnej wersji — wiele funkcji jest jeszcze w trakcie tworzenia. Obecnie gra dostępna jest tylko w **języku polskim**, ale planuję dodać obsługę wielu języków.
@@ -111,3 +113,5 @@ Albo może **Ty** ją stworzysz? Byłoby super 😄
 Tylko nie zapomnij mi jej pokazać!
 
 Jeśli znajdziesz błędy w logice lub zbyt skomplikowany kod — śmiało uprość go. Wiem, że można to napisać lepiej, ale staram się skończyć ten projekt jak najszybciej 😅 Wiesz, co mam na myśli ]:>
+
+Jak na razie robię tę grę na Windows.
