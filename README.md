@@ -22,9 +22,13 @@ You begin your journey wearing medieval armor, wielding a sword and shield — f
 - NPCs and enemies  
 - Collectibles  
 - Music and sound effects  
-- Scene and script reorganization
-- Emotions control
+- Scene and script reorganization  
+- Emotions control  
+
+### 🛠️ Currently Working On
+
 - Health bar *(added 18.07.2025 — still in progress)*
+- Saving and loading system *(last fix 20.07.2025 - still in progress)*
 
 ### 🎨 Art Credits
 
@@ -74,9 +78,13 @@ Rozpoczynamy w średniowiecznej zbroi, z mieczem i tarczą — znalezionymi po i
 - NPC i przeciwnicy  
 - Kolekcje  
 - Muzyka i efekty dźwiękowe  
-- Przearanżowanie scen i skryptów
-- Kontrola emocji
+- Przearanżowanie scen i skryptów  
+- Kontrola emocji  
+
+### 🛠️ Obecnie w trakcie prac
+
 - Pasek zdrowia *(dodano 18.07.2025 — wciąż rozwijany)*
+- System zapisu i ładowania *(ostatnia poprawka 20.07.2025 - wciąż rozwijany)*
 
 ### 🎨 Autorzy Grafiki
 
