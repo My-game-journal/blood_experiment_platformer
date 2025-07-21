@@ -39,6 +39,8 @@ func _physics_process(delta: float) -> void:
 		var health_bar = get_node_or_null("HealthBar")
 		if health_bar:
 			health_bar.value = health
+			if health_bar.value <= 0:
+				get_tree().reload_current_scene()
 		time_accumulator = 0.0
 
 func handle_gravity(delta: float) -> void:
