@@ -30,11 +30,9 @@ func _on_wczytaj_pressed() -> void:
 		if player:
 			player.position = save_data["position"]
 			player.health = save_data["health"]
-		else:
-			print("Player not found in loaded scene.")
 		_switch_scene(loaded_scene)
 	else:
-		print("Nie udało się załadować danych zapisu.")
+		return
 
 func _switch_scene(new_scene: Node) -> void:
 	get_tree().root.add_child(new_scene)

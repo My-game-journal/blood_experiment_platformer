@@ -25,8 +25,6 @@ func _ready():
 	var health_bar = get_node_or_null("HealthBar")
 	if health_bar:
 		health_bar.value = health
-	else:
-		print("HealthBar node not found!")
 
 func _physics_process(delta: float) -> void:
 	handle_gravity(delta)

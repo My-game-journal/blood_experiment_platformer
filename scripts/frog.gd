@@ -39,7 +39,6 @@ func _set_random_direction():
 	animated_sprite.flip_h = direction.x > 0
 
 func _reverse_direction():
-	print("Reversing direction")  # Debug log
 	direction.x *= -1
 	direction = Vector2.RIGHT if direction.x > 0 else Vector2.LEFT  # Clamp to right/left
 	animated_sprite.flip_h = direction.x > 0

@@ -14,8 +14,6 @@ func _on_zapisz_pressed() -> void:
 	var health_bar = player.get_node_or_null("HealthBar") if player else null
 	if player and health_bar:
 		saveloadglobal.save_game_data(player.position, health_bar.value)
-	else:
-		print("Player or HealthBar not found!")
 
 func _on_wczytaj_pressed() -> void:
 	var save_data = saveloadglobal.load_game_data()
@@ -26,9 +24,9 @@ func _on_wczytaj_pressed() -> void:
 			player.position = save_data["position"]
 			health_bar.value = save_data["health"]
 		else:
-			print("Player or HealthBar not found!")
+			return
 	else:
-		print("No save data found!")
+		return
 
 func _on_zakończ_pressed() -> void:
 	get_tree().quit()
