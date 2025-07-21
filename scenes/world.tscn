@@ -3769,29 +3769,19 @@ y_sort_enabled = true
 
 [node name="BackgroundParallaxLayer" type="ParallaxLayer" parent="level_layers/ParallaxBackground"]
 motion_scale = Vector2(0.4, 1)
-motion_mirroring = Vector2(800, 0)
+motion_mirroring = Vector2(400, 0)
 
 [node name="Sprite2D" type="Sprite2D" parent="level_layers/ParallaxBackground/BackgroundParallaxLayer"]
 position = Vector2(0, -10)
 texture = ExtResource("1_rwgxs")
 centered = false
 
-[node name="Sprite2D2" type="Sprite2D" parent="level_layers/ParallaxBackground/BackgroundParallaxLayer"]
-position = Vector2(400, -10)
-texture = ExtResource("1_rwgxs")
-centered = false
-
 [node name="MiddlegroundParallaxLayer" type="ParallaxLayer" parent="level_layers/ParallaxBackground"]
 motion_scale = Vector2(0.1, 1)
-motion_mirroring = Vector2(800, 0)
+motion_mirroring = Vector2(400, 0)
 
 [node name="Sprite2D" type="Sprite2D" parent="level_layers/ParallaxBackground/MiddlegroundParallaxLayer"]
 position = Vector2(0, -10)
-texture = ExtResource("2_4wyf3")
-centered = false
-
-[node name="Sprite2D2" type="Sprite2D" parent="level_layers/ParallaxBackground/MiddlegroundParallaxLayer"]
-position = Vector2(400, -10)
 texture = ExtResource("2_4wyf3")
 centered = false
 
@@ -3884,4 +3874,3 @@ visible = false
 [node name="ThemePlayer" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("14_o8fc1")
 volume_db = 5.0
-attenuation = 1e-05
