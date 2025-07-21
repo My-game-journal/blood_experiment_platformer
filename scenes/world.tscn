@@ -3884,3 +3884,4 @@ visible = false
 [node name="ThemePlayer" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("14_o8fc1")
 volume_db = 5.0
+attenuation = 1e-05
