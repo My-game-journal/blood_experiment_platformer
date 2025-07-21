@@ -3821,9 +3821,6 @@ tile_set = SubResource("TileSet_o8fc1")
 [node name="Killzone" parent="level_layers/soil_layers" instance=ExtResource("7_jhx03")]
 position = Vector2(2658, 300)
 
-[node name="player" parent="level_layers" instance=ExtResource("3_4wyf3")]
-position = Vector2(112, 201)
-
 [node name="frog" parent="level_layers" instance=ExtResource("5_71j4m")]
 position = Vector2(88, 204)
 collision_layer = 2
@@ -3849,6 +3846,9 @@ position = Vector2(291, 132)
 
 [node name="owl" parent="level_layers" instance=ExtResource("10_e3hyu")]
 position = Vector2(1539, 97)
+
+[node name="player" parent="level_layers" instance=ExtResource("3_4wyf3")]
+position = Vector2(125, 194)
 
 [node name="IntroDialog" type="CanvasLayer" parent="level_layers"]
 

@@ -1,4 +1,4 @@
-[gd_scene load_steps=77 format=3 uid="uid://cupggegwxhfja"]
+[gd_scene load_steps=76 format=3 uid="uid://cupggegwxhfja"]
 
 [ext_resource type="Texture2D" uid="uid://b8ofmgq2scs8d" path="res://assets/character/Combat Ready Idle.png" id="1_3vyb7"]
 [ext_resource type="Script" uid="uid://58cr8ula8ubn" path="res://scripts/player.gd" id="1_g2els"]
@@ -9,6 +9,9 @@
 [ext_resource type="Texture2D" uid="uid://d0rvafm5b831e" path="res://assets/character/Attack 3.png" id="4_fjrip"]
 [ext_resource type="Texture2D" uid="uid://yfwcx6naxke7" path="res://assets/character/Roll.png" id="7_smehm"]
 [ext_resource type="Texture2D" uid="uid://cikjiw2e610j1" path="res://assets/character/Shield Raise.png" id="9_ur7pv"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ur7pv"]
+bg_color = Color(0.35, 0.0035, 0.0035, 1)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_qfm1y"]
 atlas = ExtResource("2_qlg0r")
@@ -489,23 +492,30 @@ size = Vector2(20, 4)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ur7pv"]
 size = Vector2(8, 21)
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_d2wvv"]
-bg_color = Color(0.119885, 0, 0.00302822, 1)
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3v2ag"]
-bg_color = Color(0.652257, 0, 0.00548517, 1)
-
 [node name="player" type="CharacterBody2D" groups=["player"]]
 z_index = 1
 script = ExtResource("1_g2els")
 
+[node name="Camera2D" type="Camera2D" parent="."]
+offset = Vector2(75, -25)
+zoom = Vector2(7, 7)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="HealthBar" type="ProgressBar" parent="CanvasLayer"]
+offset_left = 10.0
+offset_top = 10.0
+offset_right = 210.0
+offset_bottom = 30.0
+size_flags_horizontal = 3
+theme_override_styles/fill = SubResource("StyleBoxFlat_ur7pv")
+value = 100.0
+
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(1, -6)
 sprite_frames = SubResource("SpriteFrames_fjrip")
 animation = &"shield"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, -2)
 shape = SubResource("CircleShape2D_qhqgy")
 
 [node name="HitBoxAttack0" type="Area2D" parent="."]
@@ -530,12 +540,10 @@ polygon = PackedVector2Array(-4, -12, 8, -12, 11, -11, 14, -10, 18, -8, 20, -6, 
 disabled = true
 
 [node name="HitBoxAttack2" type="Area2D" parent="."]
-position = Vector2(1, -6)
 monitoring = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="HitBoxAttack2"]
 visible = false
-position = Vector2(9, 8)
 shape = SubResource("RectangleShape2D_mx1m4")
 disabled = true
 
@@ -544,29 +552,6 @@ monitoring = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="ShieldBox"]
 visible = false
-position = Vector2(6, -4.5)
 shape = SubResource("RectangleShape2D_ur7pv")
 disabled = true
 debug_color = Color(0.996083, 0, 0.193508, 0.42)
-
-[node name="Camera2D" type="Camera2D" parent="."]
-z_index = 1
-offset = Vector2(75, -40)
-zoom = Vector2(5, 5)
-limit_smoothed = true
-position_smoothing_speed = 1.0
-drag_horizontal_enabled = true
-drag_vertical_enabled = true
-drag_left_margin = 0.0
-drag_top_margin = 0.5
-drag_right_margin = 0.5
-
-[node name="HealthBar" type="ProgressBar" parent="."]
-offset_left = -6.0
-offset_top = -24.0
-offset_right = 56.0
-offset_bottom = 3.0
-scale = Vector2(0.2, 0.2)
-theme_override_styles/background = SubResource("StyleBoxFlat_d2wvv")
-theme_override_styles/fill = SubResource("StyleBoxFlat_3v2ag")
-value = 100.0

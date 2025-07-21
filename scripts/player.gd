@@ -22,7 +22,7 @@ func _ready():
 	$HitBoxAttack1.connect("body_entered", Callable(self, "_on_hitbox_body_entered"))
 	$HitBoxAttack2.connect("body_entered", Callable(self, "_on_hitbox_body_entered"))
 
-	var health_bar = get_node_or_null("HealthBar")
+	var health_bar = get_node_or_null("CanvasLayer/HealthBar")
 	if health_bar:
 		health_bar.value = health
 
@@ -36,7 +36,7 @@ func _physics_process(delta: float) -> void:
 	time_accumulator += delta
 	if time_accumulator >= health_decrease_interval:
 		health = max(health - health_decrease_rate, 0)
-		var health_bar = get_node_or_null("HealthBar")
+		var health_bar = get_node_or_null("CanvasLayer/HealthBar")
 		if health_bar:
 			health_bar.value = health
 			if health_bar.value <= 0:
