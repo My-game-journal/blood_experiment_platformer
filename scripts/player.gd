@@ -16,6 +16,10 @@ var health_decrease_rate := 5
 var health_decrease_interval := 5.0
 var time_accumulator := 0.0
 
+# Camera smoothing variables
+var camera_target_position := Vector2.ZERO
+var camera_smooth_speed := 0.5
+
 func _ready():
 	$AnimatedSprite2D.frame_changed.connect(_on_AnimatedSprite2D_frame_changed)
 	$HitBoxAttack0.connect("body_entered", Callable(self, "_on_hitbox_body_entered"))
@@ -25,6 +29,11 @@ func _ready():
 	var health_bar = get_node_or_null("CanvasLayer/HealthBar")
 	if health_bar:
 		health_bar.value = health
+	
+	# Initialize camera target position
+	camera_target_position = global_position
+	# Disable built-in smoothing to use our custom implementation
+	$Camera2D.position_smoothing_enabled = false
 
 func _physics_process(delta: float) -> void:
 	handle_gravity(delta)
@@ -32,6 +41,12 @@ func _physics_process(delta: float) -> void:
 	handle_movement()
 	update_animation()
 	move_and_slide()
+	
+	# Snap player position to pixel boundaries first
+	global_position = Vector2(round(global_position.x), round(global_position.y))
+	
+	# Custom smooth camera with pixel-perfect positioning
+	update_smooth_camera(delta)
 
 	time_accumulator += delta
 	if time_accumulator >= health_decrease_interval:
@@ -48,6 +63,61 @@ func handle_gravity(delta: float) -> void:
 		velocity.y += GRAVITY * delta
 	else:
 		velocity.y = 0
+
+func update_smooth_camera(delta: float) -> void:
+	# Dynamic look-ahead based on player state and movement
+	var look_ahead_distance = 30.0
+	var vertical_offset = 0.0
+	var vertical_smoothing_factor = 1.0
+	
+	# Adjust camera behavior based on player state
+	match state:
+		PlayerState.RUNNING:
+			look_ahead_distance = 60.0
+			vertical_smoothing_factor = 0.8  # Slightly less Y smoothing when running
+		PlayerState.JUMPING:
+			vertical_offset = -25.0  # Look up more when jumping
+			look_ahead_distance = 40.0
+			vertical_smoothing_factor = 1.5  # More responsive Y movement when jumping
+		PlayerState.ROLLING:
+			look_ahead_distance = 80.0
+			vertical_smoothing_factor = 0.6  # Less Y movement when rolling
+		_:
+			look_ahead_distance = 30.0
+			vertical_smoothing_factor = 1.0
+	
+	# Calculate target position with both X and Y smoothing
+	var target_x = global_position.x
+	var target_y = global_position.y + vertical_offset
+	
+	# Only apply look-ahead when moving horizontally
+	if abs(velocity.x) > 10.0:
+		target_x += last_direction * look_ahead_distance
+	
+	# Add subtle Y-axis look-ahead based on vertical velocity
+	if abs(velocity.y) > 50.0:  # When falling or jumping fast
+		target_y += velocity.y * 0.1  # Small look-ahead in Y direction
+	
+	camera_target_position = Vector2(target_x, target_y)
+	
+	# Adaptive smoothing speed based on movement
+	var adaptive_speed_x = camera_smooth_speed
+	var adaptive_speed_y = camera_smooth_speed * vertical_smoothing_factor
+	
+	if state == PlayerState.ROLLING:
+		adaptive_speed_x = camera_smooth_speed * 1.5  # Faster X for rolls
+	elif abs(velocity.x) < 10.0:
+		adaptive_speed_x = camera_smooth_speed * 0.7  # Slower X when idle
+	
+	# Separate interpolation for X and Y axes
+	var camera = $Camera2D
+	var current_pos = camera.global_position
+	
+	var new_x = lerp(current_pos.x, camera_target_position.x, adaptive_speed_x * delta)
+	var new_y = lerp(current_pos.y, camera_target_position.y, adaptive_speed_y * delta)
+	
+	# Snap camera to pixel boundaries to maintain crispness
+	camera.global_position = Vector2(round(new_x), round(new_y))
 
 func handle_inputs():
 	var can_act = state not in [PlayerState.ATTACKING, PlayerState.ROLLING]

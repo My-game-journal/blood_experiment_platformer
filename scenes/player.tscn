@@ -497,8 +497,9 @@ z_index = 1
 script = ExtResource("1_g2els")
 
 [node name="Camera2D" type="Camera2D" parent="."]
-offset = Vector2(75, -30)
+offset = Vector2(25, -30)
 zoom = Vector2(7, 7)
+limit_smoothed = true
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
