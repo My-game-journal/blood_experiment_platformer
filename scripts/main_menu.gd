@@ -30,8 +30,13 @@ func _on_wczytaj_pressed() -> void:
 		if player:
 			player.position = save_data["position"]
 			player.health = save_data["health"]
+			# Update health bar to match loaded health
+			var health_bar = player.get_node_or_null("CanvasLayer/HealthBar")
+			if health_bar:
+				health_bar.value = save_data["health"]
 		_switch_scene(loaded_scene)
 	else:
+		print("No save data found")
 		return
 
 func _switch_scene(new_scene: Node) -> void:
