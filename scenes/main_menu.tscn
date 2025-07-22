@@ -25,7 +25,7 @@ script = ExtResource("1_l6cm7")
 
 [node name="MusicMenuPlayer" type="AudioStreamPlayer2D" parent="."]
 stream = SubResource("AudioStreamWAV_ekxnf")
-volume_db = 3.0
+volume_db = 0.0
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 layout_mode = 1
