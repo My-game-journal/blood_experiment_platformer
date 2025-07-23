@@ -49,6 +49,7 @@ You begin your journey wearing medieval armor, wielding a sword and shield — f
 - ChatGPT  
 - BIELIK.AI
 - DeepSeek
+- Claude
 
 Each tool supported different aspects of development — from logic and scripting to writing and design.
 
@@ -113,6 +114,7 @@ Rozpoczynamy w średniowiecznej zbroi, z mieczem i tarczą — znalezionymi po i
 - ChatGPT  
 - BIELIK.AI
 - DeepSeek
+- Claude
 
 Każde z nich pomogło w innym aspekcie — od logiki i skryptów po pisanie i projektowanie.
 
