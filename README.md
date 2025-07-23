@@ -27,8 +27,8 @@ You begin your journey wearing medieval armor, wielding a sword and shield — f
 
 ### 🛠️ Currently working on
 
-- Health bar *(added 18.07.2025 — still in progress)*
-- Saving and loading system *(last fix 20.07.2025 - still in progress)*
+- Health bar *(added 18.07.2025 — still in progress)*  
+- Saving and loading system *(last fix 20.07.2025 — still in progress)*  
 
 ### 🎨 Art Credits
 
@@ -36,7 +36,11 @@ You begin your journey wearing medieval armor, wielding a sword and shield — f
 - [Starstring Fields by Trixelized](https://trixelized.itch.io/starstring-fields)  
 - [Knight Hero Platform by Pixivan](https://pixivan.itch.io/knight-hero-platfor)  
 - [Crow by Shiaxs](https://shiaxs.itch.io/crow)  
-- [Dark-owl-sprites by thespriteshop](https://thespriteshop.itch.io/dark-owl-sprites)
+- [Dark-owl-sprites by thespriteshop](https://thespriteshop.itch.io/dark-owl-sprites)  
+
+### 🎼 Music Credits
+
+- The soundtrack for the **main scene** (`world.tscn`) was composed by **Suno**.
 
 ### 🤖 AI Tools Used
 
@@ -49,16 +53,17 @@ Each tool supported different aspects of development — from logic and scriptin
 
 ---
 
-### 📱 Mobile Version Coming Soon…
+### 🧭 Project Intent
 
-Or maybe **you** can build it too! That would be amazing 😄  
-Just don’t forget to share it with me!
+This project is created **purely for entertainment and hobbyist purposes**. It is not being sold or distributed commercially in any form. The game is a personal creative journey — a passion-driven experiment — and is meant to be shared with friends, fellow developers, and curious gamers who appreciate atmospheric storytelling and platformer mechanics.
 
-Also — if you spot messy logic or overly complex code, feel free to simplify it. I know it can be written better, but I’m racing to finish this project 😅 You know what I mean ]:>
+If you're playing it, giving feedback, or getting inspired: thank you! That means more than any kind of monetization ever could.
 
 ---
 
-So far I am developing this game for Windows.
+### 📱 Mobile Version Coming Soon…
+
+---
 
 ## 🇵🇱 Polski
 
@@ -85,8 +90,8 @@ Rozpoczynamy w średniowiecznej zbroi, z mieczem i tarczą — znalezionymi po i
 
 ### 🛠️ Obecnie w trakcie prac
 
-- Pasek zdrowia *(dodano 18.07.2025 — wciąż rozwijany)*
-- System zapisu i ładowania *(ostatnia poprawka 20.07.2025 - wciąż rozwijany)*
+- Pasek zdrowia *(dodano 18.07.2025 — wciąż rozwijany)*  
+- System zapisu i ładowania *(ostatnia poprawka 20.07.2025 — wciąż rozwijany)*  
 
 ### 🎨 Autorzy grafiki
 
@@ -94,7 +99,11 @@ Rozpoczynamy w średniowiecznej zbroi, z mieczem i tarczą — znalezionymi po i
 - [Starstring Fields by Trixelized](https://trixelized.itch.io/starstring-fields)  
 - [Knight Hero Platform by Pixivan](https://pixivan.itch.io/knight-hero-platfor)  
 - [Crow by Shiaxs](https://shiaxs.itch.io/crow)  
-- [Dark-owl-sprites by thespriteshop](https://thespriteshop.itch.io/dark-owl-sprites)
+- [Dark-owl-sprites by thespriteshop](https://thespriteshop.itch.io/dark-owl-sprites)  
+
+### 🎼 Muzyka
+
+- Utwór do głównej sceny (`world.tscn`) stworzył **Suno**.
 
 ### 🤖 Użyte narzędzia AI
 
@@ -107,11 +116,13 @@ Każde z nich pomogło w innym aspekcie — od logiki i skryptów po pisanie i p
 
 ---
 
+### 🧭 Cel Projektu
+
+Gra powstaje **wyłącznie w celach rozrywkowych i hobbystycznych**. Nie jest sprzedawana ani komercyjnie dystrybuowana. To osobista podróż twórcza — eksperyment zrodzony z pasji — którą chcę dzielić z przyjaciółmi, innymi twórcami i graczami ceniącymi atmosferyczne platformówki z narracją.
+
+Jeśli grasz, zostawiasz opinię lub się inspirujesz — dziękuję! To dla mnie cenniejsze niż jakakolwiek monetyzacja.
+
+---
+
 ### 📱 Wersja mobilna już w drodze…
 
-Albo może **Ty** ją stworzysz? Byłoby super 😄  
-Tylko nie zapomnij mi jej pokazać!
-
-Jeśli znajdziesz błędy w logice lub zbyt skomplikowany kod — śmiało uprość go. Wiem, że można to napisać lepiej, ale staram się skończyć ten projekt jak najszybciej 😅 Wiesz, co mam na myśli ]:>
-
-Jak na razie robię tę grę na Windows.

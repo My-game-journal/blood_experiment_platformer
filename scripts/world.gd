@@ -2,6 +2,8 @@
 extends Node
 
 func _ready():
+	# Set ThemePlayer to continue playing even when the game is paused
+	$ThemePlayer.process_mode = Node.PROCESS_MODE_ALWAYS
 	$ThemePlayer.play()
 
 func _input(event):
