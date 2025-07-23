@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=3 uid="uid://du1f5d02pe8fx"]
 
 [ext_resource type="Script" uid="uid://ciqrqw3ea3flf" path="res://scripts/main_menu.gd" id="1_l6cm7"]
-[ext_resource type="AudioStream" uid="uid://dih34kpvkhn2k" path="res://music/Hexed Shadows.mp3" id="2_bqqt6"]
+[ext_resource type="AudioStream" uid="uid://crmgbkqbbxrgj" path="res://music/blood_platformer_intro.wav" id="2_bqqt6"]
 [ext_resource type="PackedScene" uid="uid://s4fsefg4csaj" path="res://scenes/options_menu.tscn" id="2_ekxnf"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vue75"]
