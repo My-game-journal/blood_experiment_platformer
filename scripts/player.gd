@@ -104,7 +104,7 @@ func update_animation():
 			PlayerState.ROLLING:
 				$AnimatedSprite2D.play("roll")
 			PlayerState.ATTACKING:
-				pass  # Attack animation is already being handled
+				pass
 			_:
 				if direction != 0:
 					$AnimatedSprite2D.play("run")
