@@ -13,7 +13,7 @@
 [ext_resource type="PackedScene" uid="uid://civ8842em84ak" path="res://scenes/intro_dialog_trigger.tscn" id="9_w7kh3"]
 [ext_resource type="PackedScene" uid="uid://bsi7qebbjwqc" path="res://scenes/owl.tscn" id="10_e3hyu"]
 [ext_resource type="PackedScene" uid="uid://c8c0dk4s08i0n" path="res://scenes/crow.tscn" id="10_w7kh3"]
-[ext_resource type="AudioStream" uid="uid://b1uacj2yk5foj" path="res://music/Hexed Shadows.mp3" id="15_xo05s"]
+[ext_resource type="AudioStream" uid="uid://dih34kpvkhn2k" path="res://music/Hexed Shadows.mp3" id="15_xo05s"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qfnet"]
 texture = ExtResource("3_k0juu")
